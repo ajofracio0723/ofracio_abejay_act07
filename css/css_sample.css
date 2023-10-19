@@ -1,0 +1,86 @@
+/* This is a CSS comment */
+
+/* Reset some default styles to ensure consistent rendering */
+body, p, h1, h2, h3, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background color of the body to light gray */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header element */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: #0077b6;
+}
+
+/* Define a class for buttons */
+.button {
+    display: inline-block;
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Define a class for a container */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style a simple navigation menu */
+.nav-menu {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Add hover effect to buttons */
+.button:hover {
+    background-color: #005691;
+}
+
+/* Add a simple responsive media query */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* You can add more styles as needed for your specific project */
+
+/* Example of using a CSS variable */
+:root {
+    --primary-color: #0077b6;
+}
+
+.button {
+    background-color: var(--primary-color);
+}
+
